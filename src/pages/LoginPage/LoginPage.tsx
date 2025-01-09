@@ -4,10 +4,12 @@ import {Input} from "../../components/UI"
 import { AppLink, AuthWith } from "../../components";
 import { Heading } from "../../components/typography/Heading/Heading";
 
+
 export const LoginPage = () => {
+
   return (
     <div className="LoginPage">
-     <Heading level={1} children="Авторизация" />
+     <Heading type="h1" text="Авторизация" />
       <form action="#">
         <Input type="tel" placeholder="Номер телефона" />
         <Input type="password" placeholder="Пароль" />

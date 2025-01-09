@@ -1,9 +1,11 @@
-import "./MainPage.scss";
+//  import { Navbar } from "../../components/Navbar/Navbar";
+ import "./MainPage.scss";
 
 export const MainPage = () => {
   return (
     <div className="MainPage">
       <aside className="LeftSide">
+        {/* <Navbar/> */}
         <nav className="Navbar">
           <ul className="navbar__list">
             <li className="navbar__item">
@@ -162,7 +164,7 @@ export const MainPage = () => {
             </li>
           </ul>
         </nav>
-        <div className="List">
+        <div className="List"> 
           <div className="List__title">
             <h2>Подписки</h2>
             <span className="count">123</span>

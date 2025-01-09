@@ -1,5 +1,9 @@
+
 import { Header } from "./components/UI/Header/Header";
 import { LoginPage } from "./pages/LoginPage/LoginPage";
+
+
+
 
 function App() {
   return (
@@ -10,7 +14,7 @@ function App() {
           <LoginPage />
         </div>
       </div>
-    </>
+   </>
   );
 }
 
