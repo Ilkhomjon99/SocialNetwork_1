@@ -6,11 +6,16 @@ import { LoginPage } from "./pages/LoginPage/LoginPage";
 import { MainPage } from "./pages/MainPage/MainPage";
 import { ProfilePage } from "./pages/ProfilePage/ProfilePage";
 import App from './App';
+import {RegistrationPage} from "./pages/RegistrationForm/RegistrationPage"
 
 const routerConfig = createBrowserRouter ([
   {
     path: "/",
     element: <App/>
+  },
+  {
+    path: "/reg",
+    element: <RegistrationPage />,
   },
   {
     path: "/login",

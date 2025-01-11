@@ -1,10 +1,11 @@
 
 interface ButtonProps {
     text:string
+    type?: "button"| "submit" | "reset"
 }
-export const Button = ({text}: ButtonProps) => {
+export const Button = ({text, type= "button"}: ButtonProps) => {
   return (
-    <button>{text}</button>
+    <button type={type}>{text}</button>
   )
 }
 
